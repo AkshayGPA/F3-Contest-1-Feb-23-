@@ -3,7 +3,9 @@
 * {
     margin: 0;
     /* background-color: red; */
+    font-family: 'Lato', sans-serif;
 }
+
 
 .navbar {
     height: 90px;
@@ -54,20 +56,35 @@
 }
 
 .flexCard {
-    margin: 1rem -0.5rem;
-    width: 22vw;
-    height: 75vh;
+    margin: 2rem auto;
+    width: 28vw;
+    height: 80vh;
     box-sizing: border-box;
     float: left;
-    padding: 3px;
+    padding: 1rem;
     border: 1px solid black;
+    border-radius: 0.9rem;
     font-size: 1.3rem;
+    font-weight: 400;
 }
 
 .img{
     display: block;
-    /* height: 450px;
-    width: 100%; */
+    margin: auto auto;
+    /* height: 450px; */
+    /* width: 100%; */
+}
+
+#imgDiv {
+    /* padding: 0.7rem; */
+    height: 60%;
+    width: 100%;
+    text-align: center;
+    margin-bottom: -5rem;
+}
+
+.pad {
+    margin: 0.9rem 0.9rem;
 }
 
 /* .prodTitle {

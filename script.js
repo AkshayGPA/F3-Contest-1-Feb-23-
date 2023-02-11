@@ -78,14 +78,14 @@ fetch("https://dummyjson.com/products").then((response)=> response.json()).then(
     console.log('Hello');
     spann.innerHTML = 
     `<div class="flexCard" >
-        <img class="img" src="${imagee}" height="60%" width="100%"><br>
-        <p class="prodTitle"><b>Title:</b> ${titlee}</p>
-        <p class="brand"><b>Brand:</b> ${brandd}</p>
-        <p class="cost"><b>Cost:</b> ${pricee}</p>
-        <p class="rating"><b>Rating:</b> ${ratingg}</p>
-        <p class="inStock"><b>Stock:</b> ${stockk}</p>
-        <p class="discountpercentage"><b>Rebate:</b> ${discountPercentagee}%</p>
-        <p class="description">${descriptionn}</p>
+        <div id="imgDiv"><img class="img" src="${imagee}" height="80%" width="70%"></div>
+        <p class="prodTitle pad"><b>Title:</b> ${titlee}</p>
+        <p class="brand pad"><b>Brand:</b> ${brandd}</p>
+        <p class="cost pad"><b>Cost:</b> ${pricee}</p>
+        <p class="rating pad"><b>Rating:</b> ${ratingg}</p>
+        <p class="inStock pad"><b>Stock:</b> ${stockk}</p>
+        <p class="discountpercentage pad"><b>Rebate:</b> ${discountPercentagee}%</p>
+        <p class="description pad">${descriptionn}</p>
     </div>`
         divv.appendChild(spann);
         // divv.appendChild(spann);
